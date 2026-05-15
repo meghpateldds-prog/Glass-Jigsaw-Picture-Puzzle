@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 29b1613dbc37da941bc764a92f3812bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8795366620419746748
+    second: crack_0
+  - first:
+      213: 5066528421949677919
+    second: crack_1
+  - first:
+      213: 5609880128603421608
+    second: crack_2
+  - first:
+      213: -8724406247229049297
+    second: crack_3
+  - first:
+      213: -870566507590857911
+    second: crack_4
+  - first:
+      213: -3322215763595358823
+    second: crack_5
+  - first:
+      213: -6014297103096309537
+    second: crack_6
+  - first:
+      213: -8001384831545362167
+    second: crack_7
+  - first:
+      213: 2416040416172141970
+    second: crack_8
+  - first:
+      213: -202141625484376150
+    second: crack_9
+  - first:
+      213: 4832142827613604612
+    second: crack_10
+  - first:
+      213: 4797718045035844191
+    second: crack_11
+  - first:
+      213: 4202672483920797089
+    second: crack_12
+  - first:
+      213: 631046871236406900
+    second: crack_13
+  - first:
+      213: 6974314468470336255
+    second: crack_14
+  - first:
+      213: -3555616368393808314
+    second: crack_15
+  - first:
+      213: 8451362817787111812
+    second: crack_16
+  - first:
+      213: -2847447236617949403
+    second: crack_17
+  - first:
+      213: -714566302200082526
+    second: crack_18
+  - first:
+      213: 2601472650444061879
+    second: crack_19
+  - first:
+      213: 8165214862159893798
+    second: crack_20
+  - first:
+      213: 4049913713810012267
+    second: crack_21
+  - first:
+      213: -4685010725704431403
+    second: crack_22
+  - first:
+      213: -9028010688548011157
+    second: crack_23
+  - first:
+      213: 2210735504534642713
+    second: crack_24
+  - first:
+      213: 4522412735837025322
+    second: crack_25
+  - first:
+      213: 925117198228900588
+    second: crack_26
+  - first:
+      213: -8643544996831635391
+    second: crack_27
+  - first:
+      213: 8645189001514235039
+    second: crack_28
+  - first:
+      213: -6912966544856544130
+    second: crack_29
+  - first:
+      213: -4230161216854328041
+    second: crack_30
+  - first:
+      213: 5198814746958048680
+    second: crack_31
+  - first:
+      213: -7282706924041399708
+    second: crack_32
+  - first:
+      213: 587927538546076144
+    second: crack_33
+  - first:
+      213: 4004858783718754153
+    second: crack_34
+  - first:
+      213: 83717260987907602
+    second: crack_35
+  - first:
+      213: 631063319591922507
+    second: crack_36
+  - first:
+      213: -68436767816076877
+    second: crack_37
+  - first:
+      213: 3930464906756842375
+    second: crack_38
+  - first:
+      213: 9147174268507267258
+    second: crack_39
+  - first:
+      213: 4498620305770600808
+    second: crack_40
+  - first:
+      213: 4211206761781482774
+    second: crack_41
+  - first:
+      213: 5067609519252308991
+    second: crack_42
+  - first:
+      213: -5038249937940393539
+    second: crack_43
+  - first:
+      213: -6106887559063296478
+    second: crack_44
+  - first:
+      213: 7020414123589984823
+    second: crack_45
+  - first:
+      213: 7687630814316451378
+    second: crack_46
+  - first:
+      213: -2937932560218218459
+    second: crack_47
+  - first:
+      213: -4093332824419973559
+    second: crack_48
+  - first:
+      213: -1449489394354087540
+    second: crack_49
+  - first:
+      213: -8983838274399142583
+    second: crack_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1170
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb6277675b6f0a70800000000000000
+      internalID: 8795366620419746748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1077
+        width: 66
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f512bb291ccef4640800000000000000
+      internalID: 5066528421949677919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 637
+        height: 1122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abfde9214c4add40800000000000000
+      internalID: 5609880128603421608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1122
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26b6b5fdbeace680800000000000000
+      internalID: -8724406247229049297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1134
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bc1b1bf502be3f0800000000000000
+      internalID: -870566507590857911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1140
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d02b76d5e15e1d0800000000000000
+      internalID: -3322215763595358823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1048
+        width: 123
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8984c56ace88ca0800000000000000
+      internalID: -6014297103096309537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1109
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9093a8c83ee55f090800000000000000
+      internalID: -8001384831545362167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1148
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d6de035ff778120800000000000000
+      internalID: 2416040416172141970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1156
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa70faa3349d13df0800000000000000
+      internalID: -202141625484376150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1141
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b4cd7cc483f0340800000000000000
+      internalID: 4832142827613604612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1137
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52d7de742be49240800000000000000
+      internalID: 4797718045035844191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1133
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad586f7b54e25a30800000000000000
+      internalID: 4202672483920797089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_13
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1169
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47eeaa439cde1c800800000000000000
+      internalID: 631046871236406900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1098
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaaa0dbe0eb9c060800000000000000
+      internalID: 6974314468470336255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1127
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646925c50c9e7aec0800000000000000
+      internalID: -3555616368393808314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1101
+        width: 142
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489252e94b5494570800000000000000
+      internalID: 8451362817787111812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1142
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f28b023d5db78d0800000000000000
+      internalID: -2847447236617949403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_18
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1166
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af46ecebb95516f0800000000000000
+      internalID: -714566302200082526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_19
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1014
+        width: 173
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcbc96a7994a1420800000000000000
+      internalID: 2601472650444061879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_20
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 620
+        width: 201
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625d7cde7aba05170800000000000000
+      internalID: 8165214862159893798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_21
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1104
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68f0aab01f243830800000000000000
+      internalID: 4049913713810012267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_22
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1121
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d80e75319f7bfeb0800000000000000
+      internalID: -4685010725704431403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_23
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1099
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b638aa87c1016b280800000000000000
+      internalID: -9028010688548011157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_24
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1127
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910a1287a3c1eae10800000000000000
+      internalID: 2210735504534642713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_25
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1072
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24b4472c66d2ce30800000000000000
+      internalID: 4522412735837025322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_26
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1118
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceac908b03da6dc00800000000000000
+      internalID: 925117198228900588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_27
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1127
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148debfee95fb0880800000000000000
+      internalID: -8643544996831635391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_28
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1066
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94be5bb791e9f770800000000000000
+      internalID: 8645189001514235039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1022
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c8aadcd853010a0800000000000000
+      internalID: -6912966544856544130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 969
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d73ce19c27b45c0800000000000000
+      internalID: -4230161216854328041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_31
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1008
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad2f75c776e52840800000000000000
+      internalID: 5198814746958048680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_32
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 942
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4621c3553a0aeea90800000000000000
+      internalID: -7282706924041399708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 674
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f965b83bfcb82800800000000000000
+      internalID: 587927538546076144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 704
+        width: 68
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967c82b58dd149730800000000000000
+      internalID: 4004858783718754153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 631
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eb0c2c76c692100800000000000000
+      internalID: 83717260987907602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_36
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 578
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b2e03eebcf1c800800000000000000
+      internalID: 631063319591922507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_37
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 580
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b13fbc4f1ddc0ff0800000000000000
+      internalID: -68436767816076877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_38
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 206
+        width: 165
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78361691201db8630800000000000000
+      internalID: 3930464906756842375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_39
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 575
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab028fc888a41fe70800000000000000
+      internalID: 9147174268507267258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 77
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869d0d8555f4e6e30800000000000000
+      internalID: 4498620305770600808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_41
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 479
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61555b7ec36317a30800000000000000
+      internalID: 4211206761781482774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_42
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 413
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff30c672204c35640800000000000000
+      internalID: 5067609519252308991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 333
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1dd6f006a841ab0800000000000000
+      internalID: -5038249937940393539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_44
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 247
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226a7c6ee1aff3ba0800000000000000
+      internalID: -6106887559063296478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_45
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 214
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73267bc13758d6160800000000000000
+      internalID: 7020414123589984823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_46
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 91
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236ddabae73ffaa60800000000000000
+      internalID: 7687630814316451378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_47
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 89
+        width: 141
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520a32ef6ed5a37d0800000000000000
+      internalID: -2937932560218218459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_48
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 128
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946400dcb7f8137c0800000000000000
+      internalID: -4093332824419973559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8914d7531162ebe0800000000000000
+      internalID: -1449489394354087540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crack_50
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 5
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d71e610bef25380800000000000000
+      internalID: -8983838274399142583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      crack_0: 8795366620419746748
+      crack_1: 5066528421949677919
+      crack_10: 4832142827613604612
+      crack_11: 4797718045035844191
+      crack_12: 4202672483920797089
+      crack_13: 631046871236406900
+      crack_14: 6974314468470336255
+      crack_15: -3555616368393808314
+      crack_16: 8451362817787111812
+      crack_17: -2847447236617949403
+      crack_18: -714566302200082526
+      crack_19: 2601472650444061879
+      crack_2: 5609880128603421608
+      crack_20: 8165214862159893798
+      crack_21: 4049913713810012267
+      crack_22: -4685010725704431403
+      crack_23: -9028010688548011157
+      crack_24: 2210735504534642713
+      crack_25: 4522412735837025322
+      crack_26: 925117198228900588
+      crack_27: -8643544996831635391
+      crack_28: 8645189001514235039
+      crack_29: -6912966544856544130
+      crack_3: -8724406247229049297
+      crack_30: -4230161216854328041
+      crack_31: 5198814746958048680
+      crack_32: -7282706924041399708
+      crack_33: 587927538546076144
+      crack_34: 4004858783718754153
+      crack_35: 83717260987907602
+      crack_36: 631063319591922507
+      crack_37: -68436767816076877
+      crack_38: 3930464906756842375
+      crack_39: 9147174268507267258
+      crack_4: -870566507590857911
+      crack_40: 4498620305770600808
+      crack_41: 4211206761781482774
+      crack_42: 5067609519252308991
+      crack_43: -5038249937940393539
+      crack_44: -6106887559063296478
+      crack_45: 7020414123589984823
+      crack_46: 7687630814316451378
+      crack_47: -2937932560218218459
+      crack_48: -4093332824419973559
+      crack_49: -1449489394354087540
+      crack_5: -3322215763595358823
+      crack_50: -8983838274399142583
+      crack_6: -6014297103096309537
+      crack_7: -8001384831545362167
+      crack_8: 2416040416172141970
+      crack_9: -202141625484376150
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

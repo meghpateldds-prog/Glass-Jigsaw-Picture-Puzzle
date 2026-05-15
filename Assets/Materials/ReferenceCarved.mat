@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ReferenceCarved
+  m_Shader: {fileID: 4800000, guid: 78386ecc140ab7b49aafb77c69adf5ae, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BevelSize: 0.0371
+    - _BevelSmoothness: 0.055
+    - _BevelSoftness: 0.0186
+    - _BevelStrength: 0.34
+    - _BlendStrength: 0.54
+    - _BorderSize: 0.0039
+    - _CarveDepth: 1
+    - _Contrast: 0.4
+    - _DropShadowBlur: 0.074
+    - _DropShadowOpacity: 0.56
+    - _EngraveDepth: 0.62
+    - _HighlightIntensity: 0.47
+    - _InnerShadowSize: 0.018
+    - _InnerShadowStr: 1.14
+    - _InnerShadowStrength: 0.74
+    - _Opacity: 0.34
+    - _Saturation: 0.29
+    - _ShadowIntensity: 1.2
+    m_Colors:
+    - _BorderColor: {r: 0.5, g: 0.49521923, b: 0.48820746, a: 0.19215687}
+    - _CarveOffset: {r: 0.004, g: 0.004, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.043137256}
+    - _DropShadowOffset: {r: 0.01, g: -0.01, b: 0, a: 0}
+    - _LightDir: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
