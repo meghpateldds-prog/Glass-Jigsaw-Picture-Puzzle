@@ -33,10 +33,10 @@ Material:
     - _BevelSmoothness: 0.055
     - _BevelSoftness: 0.0186
     - _BevelStrength: 0.34
-    - _BlendStrength: 0.54
+    - _BlendStrength: 0.69
     - _BorderSize: 0.0039
     - _CarveDepth: 1
-    - _Contrast: 0.4
+    - _Contrast: 0.14
     - _DropShadowBlur: 0.074
     - _DropShadowOpacity: 0.56
     - _EngraveDepth: 0.62
@@ -44,13 +44,13 @@ Material:
     - _InnerShadowSize: 0.018
     - _InnerShadowStr: 1.14
     - _InnerShadowStrength: 0.74
-    - _Opacity: 0.34
-    - _Saturation: 0.29
+    - _Opacity: 0.14
+    - _Saturation: 0.14
     - _ShadowIntensity: 1.2
     m_Colors:
     - _BorderColor: {r: 0.5, g: 0.49521923, b: 0.48820746, a: 0.19215687}
     - _CarveOffset: {r: 0.004, g: 0.004, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.043137256}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.05882353}
     - _DropShadowOffset: {r: 0.01, g: -0.01, b: 0, a: 0}
     - _LightDir: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

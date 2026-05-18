@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using DG.Tweening;
 using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
@@ -29,6 +30,7 @@ public class PuzzleManager : MonoBehaviour
     [Header("Scene References")]
     public Transform puzzleArea;
     public GameObject piecePrefab;
+    public GameObject hintButton;
     public SpriteRenderer referenceImage;
     public TextMeshProUGUI levelText;
 
@@ -36,6 +38,8 @@ public class PuzzleManager : MonoBehaviour
     List<PuzzlePiece> spawnedPieces = new List<PuzzlePiece>();
     int currentLevel = 0;
     int rows, cols;
+    Shader carvedShader;
+    bool isTransitioning = false;
     // Safe-area world bounds (calculated once on Start)
     public Rect safeWorldRect;
 
@@ -44,8 +48,14 @@ public class PuzzleManager : MonoBehaviour
     void Start()
     {
         CalculateSafeWorldRect();
+        if (referenceImage != null) carvedShader = referenceImage.sharedMaterial.shader;
+        if (hintButton == null) hintButton = GameObject.Find("Hint");
+        
+        levelImages.Clear();
         Sprite[] arr = Resources.LoadAll<Sprite>("PuzzleImage");
         foreach (var s in arr) levelImages.Add(s);
+        Debug.Log($"Total levels found: {levelImages.Count}");
+        
         LoadLevel();
     }
 
@@ -60,8 +70,10 @@ public class PuzzleManager : MonoBehaviour
 
     public void LoadLevel()
     {
+        isTransitioning = false;
         if (currentLevel >= levelImages.Count)
         {
+            Debug.Log($"All levels completed or no levels found. Current Level: {currentLevel}, Total Images: {levelImages.Count}");
             if (UIManager.Instance != null) UIManager.Instance.ShowWinPanel();
             return;
         }
@@ -96,6 +108,26 @@ public class PuzzleManager : MonoBehaviour
             10f);
 
         SetRefAlpha(crackedAlpha);
+        referenceImage.sortingOrder = 0;
+        if (hintButton != null) hintButton.SetActive(true);
+        
+        // Restore the carved shader for the new level
+        if (referenceImage != null && carvedShader != null)
+        {
+            referenceImage.material.shader = carvedShader;
+        }
+
+        // Reset reference image shader properties for the new level
+        if (referenceImage.material != null)
+        {
+            referenceImage.material.SetFloat("_Opacity", 0.6f);
+            referenceImage.material.SetFloat("_Saturation", 0.5f);
+            referenceImage.material.SetFloat("_Contrast", 0.4f);
+            referenceImage.material.SetFloat("_BlendStrength", 0.3f);
+            referenceImage.material.SetFloat("_InnerShadowStr", 1.0f);
+            referenceImage.material.SetFloat("_EngraveDepth", 0.5f);
+        }
+
         GeneratePuzzle(spr, ppu);
     }
 
@@ -160,12 +192,12 @@ public class PuzzleManager : MonoBehaviour
         {
             start[i] = spawnedPieces[i].transform.position;
             float tx = 0f, ty = 0f;
-            int side = Random.Range(0, 4);
+            int side = Random.Range(1, 4);
             switch (side)
             {
                 case 0: tx = Random.Range(xMin, xMax); ty = Mathf.Min(center.y + hh + Random.Range(0.8f, 1f), yMax); break;
-                case 1: tx = Mathf.Min(center.x + hw + Random.Range(0.8f, 1.6f), xMax); ty = Random.Range(yMin, yMax); break;
-                case 2: tx = Mathf.Max(center.x - hw - Random.Range(0.8f, 1.6f), xMin); ty = Random.Range(yMin, yMax); break;
+                case 1: tx = Mathf.Min(center.x + hw + Random.Range(0.8f, 1.6f), xMax); ty = Random.Range(yMin, center.y + hh); break;
+                case 2: tx = Mathf.Max(center.x - hw - Random.Range(0.8f, 1.6f), xMin); ty = Random.Range(yMin, center.y + hh); break;
                 default: tx = Random.Range(xMin, xMax); ty = Mathf.Max(center.y - hh - Random.Range(0.8f, 1.6f), yMin); break;
             }
             end[i] = new Vector3(tx, ty, 0f);
@@ -186,17 +218,34 @@ public class PuzzleManager : MonoBehaviour
 
     public void CheckPuzzleComplete()
     {
+        if (isTransitioning) return;
         foreach (var p in spawnedPieces) if (!p.IsPlaced) return;
         
+        isTransitioning = true;
         SetRefAlpha(1f);
 
-        // Flash all pieces for 0.03s as requested
-        foreach (var p in spawnedPieces)
+        // Swap to a standard sprite shader for maximum clarity and brightness
+        if (referenceImage != null)
         {
-            p.DoGlowFlash(0.03f);
+            referenceImage.material.shader = Shader.Find("Sprites/Default");
+            referenceImage.color = Color.white;
+            referenceImage.sortingOrder = 50; // Ensure it's on top of everything
         }
 
-        Invoke(nameof(NextLevel), 2f);
+        if (hintButton != null) hintButton.SetActive(false);
+
+        // Smoothly hide all pieces
+        foreach (var p in spawnedPieces)
+        {
+            foreach (var sr in p.GetComponentsInChildren<SpriteRenderer>())
+            {
+                sr.DOFade(0f, 0.5f).SetEase(Ease.OutQuad);
+            }
+            // Deactivate after fading without changing scale
+            DOVirtual.DelayedCall(0.5f, () => p.gameObject.SetActive(false));
+        }
+
+        Invoke(nameof(NextLevel), 2.5f);
     }
 
     void NextLevel() { currentLevel++; LoadLevel(); }
@@ -207,5 +256,16 @@ public class PuzzleManager : MonoBehaviour
         Color c = referenceImage.color;
         c.a = a;
         referenceImage.color = c;
+    }
+
+    public void UseHint()
+    {
+        List<PuzzlePiece> unplaced = spawnedPieces.FindAll(p => !p.IsPlaced);
+        Debug.Log($"Hint requested. Unplaced pieces found: {unplaced.Count}");
+        if (unplaced.Count > 0)
+        {
+            PuzzlePiece randomPiece = unplaced[Random.Range(0, unplaced.Count)];
+            randomPiece.SnapByHint();
+        }
     }
 }

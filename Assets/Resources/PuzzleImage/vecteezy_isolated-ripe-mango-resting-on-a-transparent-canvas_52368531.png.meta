@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3b9a3ac5fcb2a87489c297ec899d71ea
+guid: e36bc97871969e049a2802848051a273
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5213229242370633579
-    second: Door_0
+      213: 1169913243084006246
+    second: vecteezy_isolated-ripe-mango-resting-on-a-transparent-canvas_52368531_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Door_0
+      name: vecteezy_isolated-ripe-mango-resting-on-a-transparent-canvas_52368531_0
       rect:
         serializedVersion: 2
-        x: 252
-        y: 57
-        width: 495
-        height: 885
+        x: 595
+        y: 418
+        width: 2625
+        height: 3415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6f2e24006c195840800000000000000
-      internalID: 5213229242370633579
+      spriteID: 6632c0865ed5c3010800000000000000
+      internalID: 1169913243084006246
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Door_0: 5213229242370633579
+      vecteezy_isolated-ripe-mango-resting-on-a-transparent-canvas_52368531_0: 1169913243084006246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

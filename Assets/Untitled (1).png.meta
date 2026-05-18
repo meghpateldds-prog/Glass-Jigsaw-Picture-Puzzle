@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5c09fdf47b678bc4fb26603c2f4c9ac0
+guid: 377c5980633bc2e4ab34707aa1ced77d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 24677059784402247
-    second: vecteezy_lion-head-logo-mascot_44300318_0
+      213: -2103097836041421020
+    second: Untitled (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vecteezy_lion-head-logo-mascot_44300318_0
+      name: Untitled (1)_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 53
-        width: 813
-        height: 878
+        x: 0
+        y: 0
+        width: 374
+        height: 729
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 745ec86b7aba75000800000000000000
-      internalID: 24677059784402247
+      spriteID: 42fbbda29ab40d2e0800000000000000
+      internalID: -2103097836041421020
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      vecteezy_lion-head-logo-mascot_44300318_0: 24677059784402247
+      Untitled (1)_0: -2103097836041421020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -42,6 +42,7 @@ public class PuzzlePiece : MonoBehaviour
     bool isSnapping = false;
 
     Vector3 mouseDownWorldPos;
+    Vector3 dragStartPos;
     float mouseDownTime;
 
     SpriteRenderer sr;
@@ -121,6 +122,7 @@ public class PuzzlePiece : MonoBehaviour
     {
         if (!interactable || IsPlaced || isSnapping) return;
         mouseDownWorldPos = WorldMouse();
+        dragStartPos = transform.position;
         mouseDownTime = Time.time;
         isDragging = false;
         sr.sortingOrder = 10;
@@ -189,8 +191,7 @@ public class PuzzlePiece : MonoBehaviour
         if (refSR == null) return;
 
         Bounds b = refSR.bounds;
-        // Add a small margin so it doesn't sit exactly on the edge
-        float margin = 0.5f;
+
 
         Vector3 pos = transform.position;
         // Check only X and Y (ignore Z since they are at different depths)
@@ -199,24 +200,7 @@ public class PuzzlePiece : MonoBehaviour
 
         if (isOverImage)
         {
-            Vector3 targetPos = transform.position;
-            int side = Random.Range(0, 3); // 0=Left, 1=Right, 2=Bottom
-
-            switch (side)
-            {
-                case 0: // Left
-                    targetPos.x = b.min.x - margin - Random.Range(0f, 0.5f);
-                    targetPos.y = Random.Range(b.min.y, b.max.y);
-                    break;
-                case 1: // Right
-                    targetPos.x = b.max.x + margin + Random.Range(0f, 0.5f);
-                    targetPos.y = Random.Range(b.min.y, b.max.y);
-                    break;
-                case 2: // Bottom
-                    targetPos.y = b.min.y - margin - Random.Range(0f, 0.5f);
-                    targetPos.x = Random.Range(b.min.x, b.max.x);
-                    break;
-            }
+            Vector3 targetPos = dragStartPos;
 
             // Clamp within screen safe area
             Rect safe = PuzzleManager.instance.safeWorldRect;
@@ -255,6 +239,38 @@ public class PuzzlePiece : MonoBehaviour
         snapSeq.Append(transform.DOMove(correctPos, snapDur).SetEase(Ease.OutQuad));
         snapSeq.Join(transform.DOLocalRotate(Vector3.zero, snapDur).SetEase(Ease.OutQuad));
         snapSeq.Join(sr.DOFade(glassBaseAlpha, snapDur).SetEase(Ease.OutQuad));
+
+        snapSeq.OnComplete(() =>
+        {
+            sr.sortingOrder = 0;
+            if (glowSR) glowSR.sortingOrder = 1;
+            col.enabled = false;
+            isSnapping = false;
+            DoGlowFlash();
+            PuzzleManager.instance.CheckPuzzleComplete();
+        });
+    }
+
+    public void SnapByHint()
+    {
+        if (IsPlaced || isSnapping) return;
+
+        SetHoverActive(false);
+        isSnapping = true;
+        IsPlaced = true;
+
+        // Bring to front while moving for visibility
+        sr.sortingOrder = 20;
+        if (glowSR) glowSR.sortingOrder = 21;
+
+        snapSeq?.Kill();
+        snapSeq = DOTween.Sequence();
+
+        // Slightly slower and smoother for hints
+        float hintDur = 1.25f;
+        snapSeq.Append(transform.DOMove(correctPos, hintDur).SetEase(Ease.OutQuad));
+        snapSeq.Join(transform.DOLocalRotate(Vector3.zero, hintDur).SetEase(Ease.OutQuad));
+        snapSeq.Join(sr.DOFade(glassBaseAlpha, hintDur).SetEase(Ease.OutQuad));
 
         snapSeq.OnComplete(() =>
         {
